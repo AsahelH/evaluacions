@@ -1,0 +1,100 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.backgound-imagen{
+  background-image: url("../img/background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+
+}
+.backgound-imagen h1{
+  font-size: 5.8rem;
+  color: black;
+}
+h1{
+  color: black;
+  font-size: 4.5rem;
+}
+.nav-item{
+  color: black;
+  display: flex;
+
+}
+
+.site-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6;
+  font-size: 1.5rem;
+  color: black;
+  background: linear-gradient(90deg, black, black );
+  border-radius: 1rem;
+}
+h4 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+.color{
+  color: white;
+}
+.manga{
+  color: white;
+}
+
+
+
+.hola{
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.card{
+  width: 200px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(red, green, blue, alpha);
+  text-align: center;
+}
+ .card img{
+   width: 100%;
+   border-radius: 6px;
+ }
+
+ nav a{
+   margin-left: 12px;
+   text-decoration: none;
+ }
+
+ header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 14px 20px;
+   background: black;
+ }
